@@ -59,10 +59,16 @@ nav a:focus {
 
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
-
+.skip a: focus {
+    position: absolute;
+    top: 0px;
+    margin: auto;
+}
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
-
+:focus {
+    border: 2px;
+}
 
 nav{
   background-color: #ddd;
@@ -82,6 +88,10 @@ footer{
 
 .container{
   /*Your Code Here*/
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-row-gap: 15px;
 }
 
 header{
@@ -94,6 +104,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
+  background-image: url('../image/header.jpg');
  
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
