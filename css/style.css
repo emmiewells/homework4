@@ -44,6 +44,7 @@ nav a:focus {
     text-decoration: none;
 }
 
+
 .skip a{
   background: white;
   left: 0;
@@ -54,6 +55,7 @@ nav a:focus {
   position: absolute;
   top: -40px;
 
+    
   /*Your code here*/
 }
 
@@ -64,6 +66,7 @@ nav a:focus {
     top: 0px;
     margin: auto;
 }
+
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 :focus {
@@ -104,9 +107,8 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image: url('../image/header.jpg');
+  background-image: url('../images/header.jpg');
  
-
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
 }
